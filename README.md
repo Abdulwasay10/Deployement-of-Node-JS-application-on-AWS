@@ -48,7 +48,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Abdulwasay10/Learn-Kubernetes.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
@@ -67,6 +67,6 @@ npm install
 npm run start
 ```
 
-> NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
+> NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port. For example this project is ran on 3000 port, so we will have to add that port in our inbound rules.
 
-### Project is deployed on AWS 🎉
+### Congratulation, Project is deployed on AWS 🎉
